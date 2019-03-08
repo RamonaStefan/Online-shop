@@ -1,0 +1,152 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header
+{
+	height: 1vh;
+}
+
+form
+{
+	float:left;
+}
+
+body
+{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+label{
+	color:black;
+}
+
+.header {
+	width: 30%;
+	margin-top:100px;
+	margin-left:500px;
+	color: white;
+	background: darkorange;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+.forms
+{
+	width: 30%;
+	text-align:center;
+	margin-left:500px;
+	color: white;
+	background: white;
+	border: 2px solid black;
+	border-radius: 0px 0px 10px 10px;
+	padding: 20px;
+}
+
+.autentify:focus {
+    background-color: lightblue;
+}
+
+
+.menu
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.menu li 
+{
+	display: inline-block;
+}
+
+.menu li a 
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 25px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.menu li.active a
+{
+	border: 1px solid white;
+}
+
+.menu li a:hover
+{
+	border: 1px solid darkorange;
+}
+
+.logo img
+{
+	width: 125px;
+	height: auto;
+	float: left;
+}
+.button
+{
+	margin-top: 250px;
+	margin-left: 440px;
+	
+}
+
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.btn
+{
+	border: 1px solid white;
+	background:black;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 13px;
+	text-transform:uppercase;
+}
+
+.btn-one
+{
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+}
+
+.input-group {
+	margin: 30px 10px 10px 10px;
+	float:center;
+}
+
+.input-group label {
+	display: block;
+	text-align: center;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid grey;
+}
+
